@@ -7,7 +7,11 @@ const numero2 = "20";
 
 console.log( parseInt(numero2) ); // Esto es una función
 
-console.log( numero1.toString()); // Esto es un método
+const numero3 = numero1.toString();
+
+console.log(typeof(numero3)); // Esto es un método
+
+console.log(typeof(numero1));
 
 // Puedes ver que mientras la función toma el valor en el parentesis, el método añade un punto seguido del nombre, esa seria la diferencia
 

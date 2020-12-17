@@ -66,7 +66,7 @@ console.table([1, 2, 3, 4]);
 console.error("Algo salió mal");
 
 // Limpiar la consola
-console.clear();
+// console.clear();
 
 // O enviar advertencias
 console.warn("Eso no esta permitido");
