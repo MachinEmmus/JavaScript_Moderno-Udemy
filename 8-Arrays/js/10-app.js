@@ -11,11 +11,11 @@ const carrito = [
 
 
 const nuevoArray = carrito.map( function(producto) {
-   return  `Articulo: ${ producto.nombre } Precio: $ producto.precio} `;
+   return  `Articulo: ${ producto.nombre } Precio: ${producto.precio} `;
 })
 
 const nuevoArray2 = carrito.forEach( function(producto) {
-    return  `Articulo: ${ producto.nombre } Precio: $ producto.precio} `;
+    return  `Articulo: ${ producto.nombre } Precio: ${producto.precio} `;
  })
 
 console.log(nuevoArray);
