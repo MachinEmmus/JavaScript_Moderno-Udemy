@@ -5,9 +5,9 @@ function Cliente(nombre, saldo) {
     this.saldo = saldo;
 }
 
-const juan = new Cliente('Juan', 400);
+const juan1 = new Cliente('Juan', 400);
 
-console.log(juan);
+console.log(juan1);
 
 
 // Supongamos que queremos una función que muestre el nombre y saldo...
@@ -16,7 +16,7 @@ function formatearCliente(cliente) {
     return `El Cliente ${nombre} tiene un saldo de ${saldo}`;
 }
 
-console.log( formatearCliente(juan));
+console.log( formatearCliente(juan1));
 
 
 

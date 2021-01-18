@@ -1,6 +1,7 @@
 // En javascript hay un objeto llamado Date
 const diaHoy = new Date();
 let valor;
+valor = diaHoy
 
 // En este momento
 Date.now();
